@@ -17,7 +17,7 @@ This repository contains replication code for our paper on dynamic deterrence. W
 - **Reserve capacity requirements** of 40-62% for cost-effective enforcement
 - **Theoretical foundations** for empirically-observed crime persistence
 
-**For complete documentation**, including all analytical proofs, benchmarking procedures, robustness tests, and detailed replication instructions, see **[Appendix_1_-_Replication_and_Robustness.pdf](Appendix_1_-_Replication_and_Robustness.pdf)**.
+**For complete documentation**, including all analytical proofs, benchmarking procedures, robustness tests, and detailed replication instructions, see **[Appendix 1 - Replication and Robustness](https://github.com/cliffbekar/dynamic_deterrence_policy/tree/main/%5B01%5D%20Appendix)**.
 
 ---
 
@@ -84,15 +84,15 @@ F = 1.0          # Sanction/fine
 
 ### Main Text Figures
 
-| Figure | Description | Expected Runtime |
-|--------|-------------|------------------|
-| Figure 1 | Time series across R | ~5 minutes |
-| Figure 2 | Quasi-attractor dynamics (R=39) | ~10 minutes |
-| Figure 3 | Persistence and time allocation | ~30 minutes |
-| Figure 4 | Observable indices | ~20 minutes |
-| Figure 5 | Expected cost of ASB | ~25 minutes |
-| Figure 6 | Dynamics at optimal R*=44 | ~10 minutes |
-| Figure 7 | Two-bin policy performance | ~15 minutes |
+| Figure | Description | 
+|--------|-------------|
+| Figure 1 | Time series across R |
+| Figure 2 | Quasi-attractor dynamics (R=39) |
+| Figure 3 | Persistence and time allocation |
+| Figure 4 | Observable indices |
+| Figure 5 | Expected cost of ASB |
+| Figure 6 | Dynamics at optimal R*=44 |
+| Figure 7 | Two-bin policy performance |
 
 ### Appendix Materials
 
@@ -110,7 +110,6 @@ F = 1.0          # Sanction/fine
 
 **Limitations:** For very high attractor persistence, convergence may require extended runtimes. See Appendix §1.2 for discussion.
 
-**Hardware:** Tested on 2019 MacBook Pro (2.3 GHz 8-Core i9, 16GB RAM). Your runtimes may vary.
 
 ---
 
@@ -176,5 +175,8 @@ See Appendix §3.1 for complete specifications and results.
 ---
 
 ## License
+
+MIT License - see [LICENSE](LICENSE) file for details.
+
 
 MIT License - see [LICENSE](LICENSE) file for details.
